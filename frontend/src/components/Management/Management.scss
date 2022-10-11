@@ -1,0 +1,63 @@
+.management {
+    margin: 0 10%;
+
+    .title {
+        text-align: center;
+        color: green;
+        font-size: 180%;
+        font-weight: 600;
+    } 
+
+    .fcontainer {
+        display: flex;
+        align-items: center;
+
+        .ftext {
+            width: 15%;
+            font-size: 110%;
+        }
+
+        .fip {
+            width: 30%;
+            margin-right: 30%;
+        }
+    }
+
+    th {
+        width: 20%;
+        background-color: #198754;
+        color: white;
+    }
+
+    td {
+        width: 20%;
+    }
+
+    .btn {
+        margin-right: 5%;
+    }
+
+    ul {
+        display: flex;
+        justify-content: flex-end;
+
+        li {
+            list-style-type: none;
+            border: 0.0625em solid black;
+            padding: 0 0.5%;
+            margin-right: 0.5%;
+        }
+
+        :last-child {
+            text-decoration: none;
+            color: rgb(65,105,225);
+            border-color: gray; 
+        }
+
+        :first-child {
+            text-decoration: none;
+            color: rgb(65,105,225);
+            border-color: gray; 
+        }
+    }
+}

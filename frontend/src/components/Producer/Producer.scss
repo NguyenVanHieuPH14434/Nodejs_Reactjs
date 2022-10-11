@@ -1,0 +1,122 @@
+.producer {
+    margin: 0 10%;
+
+    .title {
+        text-align: center;
+        color: green;
+        font-size: 180%;
+        font-weight: 600;
+    }
+
+    .fcontainer {
+        display: flex;
+        align-items: center; 
+
+        .ftext {
+            width: 25%;
+            font-size: 110%;
+        }
+
+        .fip {
+            width: 30%;
+            margin-right: 25%;
+        }
+    }
+
+    th {
+        background-color: #198754;
+        color: white;
+    }
+
+    .btn {
+        margin-right: 3%;
+    }
+
+
+
+
+
+.paginationBttns {
+    width: 80%;
+    height: 40px;
+    list-style: none;
+    display: flex;
+    justify-content: right;
+    margin-top: 20px;
+
+  }
+//   .pagination {
+//     position: absolute;
+//     bottom: 30px;
+//     right: 20px;
+//     .paginationBtns a {
+//       padding: 10px;
+//       margin: 8px;
+//       border-radius: 5px;
+//       border: 1px solid #000;
+//       color: #000;
+//       cursor: pointer;
+//     }
+
+//     .paginationBtns a:hover {
+//       color: white;
+//       background-color: #ccc;
+//     }
+
+//     .paginationActive a {
+//       color: white;
+//       background-color: #ccc;
+
+//     }
+//   }
+  ul {
+        display: flex;
+        justify-content: flex-end;
+
+        li {
+            list-style-type: none;
+            // border: 0.0625em solid black;
+            // padding: 0 0.5%;
+            // margin-right: 0.5%;
+     
+        }
+
+        :last-child {
+            // margin: 0 0.5%;
+            text-decoration: none;
+            color: blue;
+            border-color: blue; 
+      
+        }
+
+        :first-child {
+            margin: 0 0.5%;
+            text-decoration: none;
+            color: #000;
+            border-color: blue; 
+        }
+        .paginationActive a{
+            background-color: blue;
+            color: white;
+        }
+    }
+
+     .pagination {
+    position: absolute;
+    bottom: 30px;
+    right: 20px;}
+     .paginationBtns a {
+      padding: 10px;
+      margin: 3px;
+      border-radius: 5px;
+      border: 1px solid #000;
+      color: #000;
+      cursor: pointer;
+    }
+    .nextBtn , .previousBtn {
+        text-decoration-color: white;
+        background-color: #198754;
+    }
+
+    
+}

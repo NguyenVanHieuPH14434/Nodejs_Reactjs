@@ -1,0 +1,34 @@
+.consignment {
+    margin: 0 10%;
+
+    .title {
+        text-align: center;
+        color: green;
+        font-size: 180%;
+        font-weight: 600;
+    }
+
+    .fcontainer {
+        display: flex;
+        align-items: center; 
+
+        .ftext {
+            width: 25%;
+            font-size: 110%;
+        }
+
+        .fip {
+            width: 30%;
+            margin-right: 25%;
+        }
+    }
+
+    th {
+        background-color: #198754;
+        color: white;
+    }
+
+    .btn {
+        margin-right: 3%;
+    }
+}
